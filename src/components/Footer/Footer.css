@@ -1,0 +1,31 @@
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    width: 100vw;
+   background-color: rgb(239, 241, 243);
+   padding-top: 3rem;
+}
+.direccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #5cabbc;
+    width: 30%;
+}
+.copyright{
+    color: #5cabbc;
+    
+}
+
+@media (max-width: 500px) {
+    .direccion{
+        width: 60vw;
+    }
+    .copyright{
+        width: 85vw;
+    }
+    
+  }

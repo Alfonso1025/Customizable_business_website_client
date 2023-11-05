@@ -1,0 +1,123 @@
+
+
+
+
+
+.auth-wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+      
+   
+}
+
+.auth-header{
+    color: #7e7c91e7;
+}
+.auth-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+}
+
+.auth-input{
+    height: 1.5rem;
+    width: 300px;
+    padding: 15px .625rem 10px;
+    border: solid 1px  #7e7c91e7; 
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: large;
+}
+.auth-button {
+    appearance: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    padding: 0.75em 2.5em 0.75em 2.5em;;
+    border-radius: 0.35em;
+    background:  #5cabbc;
+    color: rgba(8, 48, 51, 2.5);
+    font-size: large;
+    font-weight: 700;
+    margin-top: 20px;
+    
+    height: 4rem;
+    cursor: pointer;
+    margin-top: 2rem;
+  }
+  
+  .auth-button:hover {
+    background-color: #7e7c91e7;
+    color: rgba(8, 48, 51, 1);
+  }
+.goTo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 40vw;
+    
+   
+}
+.goTo-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.goTo-p{
+    font-weight: 1000;
+    font-size: 20px;
+    color: #5cabbc
+   
+}
+.goTo-button{
+    appearance: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    padding: 0.75em 2.5em 0.75em 2.5em;;
+    border-radius: 0.35em;
+    background:  #5cabbc;
+    color: rgba(8, 48, 51, 2.5);
+    font-size: large;
+    font-weight: 700;
+    margin-top: 20px;
+    width: 60%;
+    height: 4rem;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.goTo-button:hover {
+    background-color: #7e7c91e7;
+    color: rgba(8, 48, 51, 1);
+  }
+
+@media only screen and (max-width: 500px) {
+    .logo{
+        margin-bottom: 3rem;
+    }
+    .goTo-container {
+      width: 80%;
+     
+    
+    }
+    .goTo-p{
+        font-weight: 900;
+        font-size: 14px;
+       
+    }
+
+    
+  }

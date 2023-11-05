@@ -1,0 +1,17 @@
+.home-wrapper {
+    background-color: #fcfafae7; 
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+  }
+  
+  .home-text {
+    font-size: 24px;
+    color: #666f9a;
+    text-align: justify;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    line-height: 1.5;
+  }

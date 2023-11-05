@@ -1,0 +1,120 @@
+.contact-wrapper{
+    width: 700px;
+    height: 100vh;
+   margin-top: 5vh;
+  
+  
+}
+.contact-wrapper h2{
+    text-align: center;
+    color: #9f9dace7;
+}
+.form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom:35px ;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #edecf0e7;
+   /*  background-color:  rgba(8, 48, 51, 1.5);; */
+   
+}
+.input-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    
+}
+.contact-input{
+    appearance: none;
+    border: none;
+    outline: none;
+     padding: 12px 16px;
+     border-radius: 5px;
+    width: 90%;
+    height: 2rem;
+    background-color: white;
+    font-size: 4vh;
+    box-shadow: 0 0 5px #c9c6d4;
+    
+    color: rgb(129, 121, 208);
+  
+}
+.contact-input::placeholder {
+    color: #bab1c8;
+    font-size: medium;
+  }
+.contact-message{
+   
+    height: 20vh;
+    width: 97%;
+    background-color:  white;
+    appearance: none;
+    border:none;
+    outline: none;
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-size: 4vh;
+    box-shadow: 0 0 5px #d0cfdc;
+    color: rgb(129, 121, 208);
+    margin-top: 3vh;
+
+    
+}
+.contact-message::placeholder{
+    color: #d0cfdc;
+    font-size: large;
+}
+
+.button {
+    appearance: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    padding: 0.75em 2.5em 0.75em 2.5em;;
+    border-radius: 0.35em;
+    background:  #5cabbc;
+    color: rgba(8, 48, 51, 2.5);
+    font-size: large;
+    margin-top: 20px;
+    width: 60%;
+    height: 4rem;
+    cursor: pointer;
+    margin-top: 2rem;
+  }
+  
+  .button:hover {
+    background-color: #7e7c91e7;
+    color: rgba(8, 48, 51, 1);
+  }
+  
+@media screen and (max-width: 600px) {
+    .contact-wrapper{
+        width: 70vw;
+       
+      
+    }
+    .input-grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .form{
+        border: none;
+    }
+    .contact-input{
+        height: 2rem;
+    }
+    .button{
+        height: 3rem;
+        width: auto;
+        font-size: medium;
+
+    }
+}

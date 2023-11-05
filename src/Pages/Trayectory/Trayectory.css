@@ -1,0 +1,76 @@
+.trayectory-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-top: 3.5rem;
+    margin-bottom: 5rem;
+   
+
+    
+   
+}
+
+.foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 40vw;
+}
+.foto img{
+  border-radius: 150px;
+}
+
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+    padding: 10px;
+    color: rgb(159, 174, 180)
+  }
+  
+  .author {
+    font-size:20px;
+    color: lightgrey;
+    padding: 5px;
+  }
+.main-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    border-left: 2px solid rgb(159, 174, 180);
+    /* background-image: url('../media/angel3.png');
+    background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  opacity: 0.5 */
+}
+.main-content-item{
+    width: 70%;
+    margin-bottom: 2rem;
+    
+}
+.main-content-item h2{
+    color: #596e7c;
+}
+.main-content-item p{
+    color: rgb(145, 139, 139);
+    text-align: justify;
+    font-size: large;
+}
+
+
+@media (max-width: 500px) {
+  .trayectory-wrapper{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+ .main-content-wrapper{
+  border: none;
+ }
+  
+}

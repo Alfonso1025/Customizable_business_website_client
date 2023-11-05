@@ -1,0 +1,33 @@
+.navbar-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height:9vh;
+    width: 95vw;
+    border-radius: 15px;
+    margin-right: 15px; 
+    margin-bottom: 2rem;
+    padding-top: 10px;
+}
+.nav-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+.nav-text{
+    font-size: 15px;
+    color: #666f9a;
+}
+/* #083033; */
+
+@media (max-width: 500px) {
+    .navbar-wrapper{
+        width: 85vw;
+    }
+    .nav-text{
+        font-size: 10px;
+    }
+    
+  }
